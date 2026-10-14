@@ -1,0 +1,139 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#9b51e0",
+          "name": "Púrpura Resplandor"
+        },
+        {
+          "slug": "primary-dark",
+          "color": "#7a32bf",
+          "name": "Púrpura Oscuro"
+        },
+        {
+          "slug": "primary-light",
+          "color": "#f5edfc",
+          "name": "Lavanda Suave"
+        },
+        {
+          "slug": "accent-pink",
+          "color": "#ec4899",
+          "name": "Rosa Floral"
+        },
+        {
+          "slug": "accent-gold",
+          "color": "#d4af37",
+          "name": "Dorado Botánico"
+        },
+        {
+          "slug": "bg-light",
+          "color": "#faf7f5",
+          "name": "Fondo Cálido"
+        },
+        {
+          "slug": "text-main",
+          "color": "#2b2b2b",
+          "name": "Texto Principal"
+        },
+        {
+          "slug": "white",
+          "color": "#ffffff",
+          "name": "Blanco Puro"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "primary-gradient",
+          "gradient": "linear-gradient(135deg, #a855f7 0%, #ec4899 100%)",
+          "name": "Degradado Floral"
+        },
+        {
+          "slug": "hero-bg",
+          "gradient": "linear-gradient(180deg, #fdf8f5 0%, #ffffff 100%)",
+          "name": "Fondo Portada"
+        },
+        {
+          "slug": "dark-botanical",
+          "gradient": "linear-gradient(135deg, #2b173b 0%, #170f26 100%)",
+          "name": "Púrpura Nocturno"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'DM Serif Display', Georgia, serif",
+          "name": "DM Serif Display",
+          "slug": "serif"
+        },
+        {
+          "fontFamily": "'Questrial', 'Plus Jakarta Sans', system-ui, sans-serif",
+          "name": "Questrial / Sans",
+          "slug": "sans"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Pequeño",
+          "size": "0.875rem",
+          "slug": "small"
+        },
+        {
+          "name": "Normal",
+          "size": "1.05rem",
+          "slug": "medium"
+        },
+        {
+          "name": "Grande",
+          "size": "1.4rem",
+          "slug": "large"
+        },
+        {
+          "name": "Muy Grande",
+          "size": "2.2rem",
+          "slug": "x-large"
+        },
+        {
+          "name": "Enorme",
+          "size": "3.2rem",
+          "slug": "xx-large"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--bg-light)",
+      "text": "var(--wp--preset--color--text-main)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--sans)",
+      "lineHeight": "1.65"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--serif)",
+          "fontWeight": "400"
+        },
+        "color": {
+          "text": "#1e1e1e"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        }
+      }
+    }
+  }
+}
